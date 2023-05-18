@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --scrollbar-width: calc(100vw - 100%);
+}
