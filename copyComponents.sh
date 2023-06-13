@@ -16,7 +16,8 @@ unzip -o $zipFileName
 rm $zipFileName
 # if src/FRAME_0 exists remove it
 # remove old file
-rm -rf src/FRAME_0
+rm -rf src/{components,pages}
+
 # copy file to src
 mv $fileName/* src/
 # remove old folder
