@@ -14,9 +14,10 @@ mv ~/Downloads/$zipFileName $pathToProject
 unzip -o $zipFileName
 # remove old file
 rm $zipFileName
-# if src/FRAME_0 exists remove it
+# if src/pages or src/components exists remove it
 # remove old file
-rm -rf src/FRAME_0
+rm -rf src/components
+rm -rf src/pages
 # copy file to src
 mv $fileName/* src/
 # remove old folder
