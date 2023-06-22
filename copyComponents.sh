@@ -1,5 +1,5 @@
 # path to project / change it
-pathToProject=~/Projects/js/basic-boilerplate/
+pathToProject=~/Projects/basic-boilerplate/
 fileName="Codejet_generated_code"
 zipFileName="$fileName.zip"
 # if CodejetApp.zip not exists in downloads stop script
@@ -14,9 +14,10 @@ mv ~/Downloads/$zipFileName $pathToProject
 unzip -o $zipFileName
 # remove old file
 rm $zipFileName
-# if src/FRAME_0 exists remove it
+# if src/components and src/pages exists remove it
 # remove old file
-rm -rf src/FRAME_0
+rm -rf src/{components,pages}
+
 # copy file to src
 mv $fileName/* src/
 # remove old folder
