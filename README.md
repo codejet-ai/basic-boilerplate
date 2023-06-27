@@ -1,5 +1,5 @@
 ![Codejet](./logo.svg)
-# This is basic React project to test exported code from [Codejet](https://codejet.co) 
+# This is basic React project to test exported code from [Codejet](https://app.codejet.ai/) 
 
 ## How to run this project
 1. Install dependencies: `npm install`
